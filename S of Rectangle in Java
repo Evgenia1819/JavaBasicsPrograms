@@ -1,0 +1,17 @@
+package company.com;
+
+import java.util.Scanner;
+
+public class Rectangle {
+    public static void main(String[] args) {
+
+        Scanner scan = new Scanner(System.in);
+
+        //Enter rectangle size
+        int a = scan.nextInt();
+        int b = scan.nextInt();
+
+        //Print rectangle area
+        System.out.println(a*b);
+    }
+}
